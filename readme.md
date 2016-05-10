@@ -1,5 +1,8 @@
 #Teste Abril - Menu Responsivo
+Danilo Matos
+danilo.matos[at]gmail.com
 
+##Requisítos
 * Inglês (Avançado)
 * HTML (Avançado)
 * CSS3 (Avançado)
@@ -23,6 +26,6 @@
 * Performance página (WPO) (Básico)
 * Ambientes baseados em Unix (Básico)
 
-###Diferencial
+##Diferencial
 * PHP ou linguagem similar (Básico)
 * WordPress, plugins e templates (Intermediário)
