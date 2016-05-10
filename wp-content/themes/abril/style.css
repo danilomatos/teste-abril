@@ -1,0 +1,255 @@
+/*
+Theme Name: Bootstrap 3.1.1 Starter Wordpress theme
+Author: 3sparks llc
+Author URI: http://3sparks.net/
+Description: This is a blank bootstrap 3.1.1 theme for wordpress. Feel free to use this as a starter template for your projects.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Font */
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,700);
+
+/*Wordpress editor styles start*/
+
+.entry-content img {
+	margin: 0 0 1.5em 0;
+	}
+.alignleft, img.alignleft {
+	margin-right: 1.5em;
+	display: inline;
+	float: left;
+	}
+.alignright, img.alignright {
+	margin-left: 1.5em;
+	display: inline;
+	float: right;
+	}
+.aligncenter, img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	clear: both;
+	}
+.wp-caption {
+	margin-bottom: 1.5em;
+	text-align: center;
+	padding-top: 5px;
+	}
+.wp-caption img {
+	border: 0 none;
+	padding: 0;
+	margin: 0;
+	}
+.wp-caption p.wp-caption-text {
+	line-height: 1.5;
+	font-size: 10px;
+	margin: 0;
+	}
+.wp-smiley {
+	margin: 0 !important;
+	max-height: 1em;
+	}
+blockquote.left {
+	margin-right: 20px;
+	text-align: right;
+	margin-left: 0;
+	width: 33%;
+	float: left;
+	}
+blockquote.right {
+	margin-left: 20px;
+	text-align: left;
+	margin-right: 0;
+	width: 33%;
+	float: right;
+	}
+
+/*Wordpress editor styles end*/
+
+/* my styles */
+.navbar {
+	border-radius: 0;
+}
+
+.navbar-default {
+	background-color: #ed1c24;
+	border: 0;
+}
+
+.navbar-default .navbar-header {
+	overflow: hidden;
+}
+
+.navbar-default .navbar-brand {
+	height: auto;
+	display: block;
+	float: none;
+	margin: 0 auto;
+	padding: 10px 0;
+	width: 187px;
+}
+
+.navbar-default .navbar-toggle {
+	border: 0 none;
+	border-radius: 0;
+	color: #fff;
+	font-size: 24px;
+	line-height: 24px;
+	margin: 0;
+	padding: 18px;
+	width: 60px;
+}
+
+.navbar-default .navbar-toggle.pull-left {
+	text-align: center;
+}
+
+.navbar-default .navbar-toggle.active,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+	background-color: #d41f1f;
+}
+
+.navbar-nav {
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	padding: 10px 15px 10px 25px
+}
+
+.navbar-default .navbar-nav > li > a .glyphicon-chevron-down {
+	float: right;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+	background-color: #ffffff;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-collapse-form {
+	background-color: #d41f1f;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: transparent;
+	margin: 0;
+	overflow: hidden;
+}
+
+.navbar-default .navbar-form .hold {
+	float: left;
+	position: relative;
+	left: 50%;
+}
+.navbar-default .navbar-form .center {
+	float: left;
+	position: relative;
+	left: -50%;
+}
+
+.navbar-default .navbar-form .form-group,
+.navbar-default .navbar-form .btn {
+	float: left;
+}
+
+.navbar-default .navbar-form .form-group {
+	margin: 0;
+	width: 280px;
+}
+
+.navbar-default .navbar-form .form-group .form-control {
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-default .navbar-form .btn {
+	border: 0;
+	border-radius: 0;
+	color: #bfbfbf;
+	padding: 7px 12px;
+}
+
+@media (min-width: 767px) {
+	.navbar-header {
+		float: none;
+	}
+	.navbar-default .navbar-nav > li > a .glyphicon-chevron-down {
+		float: none;
+		font-size: 12px;
+	}
+	.navbar-default .navbar-nav .open > .dropdown-menu {
+		background-color: #d41f1f;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+		background-color: #fff;
+		color: #d41f1f;
+	}
+	.navbar-default .navbar-form {
+		padding: 10px;
+	}
+	.navbar-default .navbar-form .form-group {
+		width: 630px;
+	}
+	.navbar-default .navbar-form .form-control {
+		width: 100%;
+	}
+}
+
+@media (min-width: 991px) {
+	.navbar-header {
+		float: left;
+		margin: 0 15px;
+	}
+	.navbar-nav {
+		margin: 7px 0;
+	}
+	.navbar-default .navbar-toggle {
+		padding: 18px 6px;
+	    width: 40px;		
+	}
+}
+
+@media (min-width: 1199px) {
+	.navbar-default .navbar-collapse-form {
+		display: block;
+		float: right;
+		height: 64px !important;
+		margin: 0 10px;
+		overflow: hidden;
+	}
+	.navbar-default .navbar-collapse-form .navbar-form {
+		float: right;
+		padding: 15px 10px;
+	}
+	.navbar-default .navbar-collapse-form .navbar-form .form-group {
+		width: auto;
+	}
+}
+
+@media (min-width: 1320px) {
+	.container {
+		width: 1320px;
+	}
+	.navbar-default {
+		background-color: #d41f1f;
+		padding: 10px 0;
+	}
+	.navbar-nav {
+		float: right;
+	}
+}
